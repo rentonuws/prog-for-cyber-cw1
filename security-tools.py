@@ -50,7 +50,7 @@ def login_authentication(): #define a function that will simulate a login authen
         else:
             count = count + 1   #increment the count of login attempts by one
             print("Login failed. Invalid username or password.")    #Tell the user that they have entered invalid credentials
-            if count == max_attempts:   #check if the user has exceeded the maximum number of login attempts
+            if count == 3:   #check if the user has exceeded the maximum number of login attempts
                 valid = True    #set valid to True to exit the while loop since the user has exceeded the maximum number of login attempts
                 print("Maximum number of login attempts exceeded. Access denied. Account is frozen immediately. Please try again after 24 hours.")  #Tell the user that they have exceeded the maximum number of login attempts and that their account is frozen for 24 hours.
 
