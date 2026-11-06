@@ -83,4 +83,4 @@ while not valid:
         print("Thank you for using the security tool. Have a great day! Goodbye!")  #Thank the user for using the security tool and say goodbye.
         valid = True    #set valid to True to exit the while loop since the user has selected the Exit option.
     else:
-        print("Invalid option. Please try again.")   #Tell the user that they have entered an invalid option and prompt them to try again.# 
+        print("Invalid option. Please try again.")   #Tell the user that they have entered an invalid option and prompt them to try again.
