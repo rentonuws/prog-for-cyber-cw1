@@ -80,7 +80,7 @@ while not valid:
         print("Login Authentication selected.")   #Confirm to the user that they have selected the Login Authentication option.
         login_authentication()  #Call the login_authentication function to execute the Login Authentication functionality.
     elif options == "4":    #check if the user selected option 4 (Exit)
-        print("Thank you for using the security tool. Have a great day! Goodbye!")  #Thank the user for using the security tool and say goodbye.
+        print("Thank you for using the security tool")  #Thank the user for using the security tool.
         valid = True    #set valid to True to exit the while loop since the user has selected the Exit option.
     else:
         print("Invalid option. Please try again.")   #Tell the user that they have entered an invalid option and prompt them to try again.
