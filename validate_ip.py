@@ -14,13 +14,3 @@ def validate_ip(ip):    #defined a function to validate the IP address entered b
         return True #Returning True if the IP address is valid
     else:
         return False    #Returning False if the number of dots in the IP address is not equal to 3, which is an invalid format for an IP address
-
-valid = False   #Initializing a variable to False to indicate that the IP address entered by the user is not valid yet
-
-while not valid:    #Looping until the user enters a valid IP address
-    ip = input("Please enter an IP address: ")  #Prompting the user to enter an IP address
-    if validate_ip(ip): #Calling the validate_ip function to check if the IP address entered by the user is valid
-        print("Valid IP address")   #Printing a message to indicate that the IP address entered by the user is valid
-        valid = True    #Setting the valid variable to True to exit the loop since the user has entered a valid IP address
-    else:
-        print("Invalid IP address")    #Printing a message to indicate that the IP address entered by the user is invalid
