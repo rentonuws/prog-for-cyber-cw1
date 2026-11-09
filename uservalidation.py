@@ -13,7 +13,7 @@ while not valid:
     username = input("Please enter your username: ")
     password = input("Please enter your password: ")
     if authenticate(username,password):
-        print("Login sucessful")
+        print("Login successful")
         valid = True
         print(f"Event ID: {randint(1000,9999)}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: Login Successful\nTimestamp: = {datetime.now()}")
     else:
