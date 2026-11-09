@@ -1,5 +1,6 @@
 from random import randint
 from datetime import datetime
+event_history = []
 
 def authenticate(username,password):
     if username == "admin" and password == "admin123":
@@ -12,10 +13,22 @@ valid = False
 while not valid:
     username = input("Please enter your username: ")
     password = input("Please enter your password: ")
+    event_id = randint(1000,9999)
+    Timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     if authenticate(username,password):
-        print("Login successful")
+        status = "Login Successful"
+        print(status)
         valid = True
-        print(f"Event ID: {randint(1000,9999)}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: Login Successful\nTimestamp: = {datetime.now()}")
+        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {Timestamp}")
     else:
+        status = "Login Failed"
         print("Invalid username or password")
-        print(f"Event ID: {randint(1000,9999)}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: Login Failed\nTimestamp: = {datetime.now()}")
+        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {Timestamp}")
+    log_entry = {
+        "Event ID": event_id,
+        "Username": username,
+        "IP Address": "192.168.1.25",
+        "Event": status,
+        "Timestamp": Timestamp
+    }
+    event_history.append(log_entry)
