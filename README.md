@@ -17,3 +17,5 @@ Ensure you have Python 3 installed on your machine. Follow these steps to run th
 
 ## Execution Evidence
 Below is the verification screenshot illustrating the program displaying incident information, updating dictionary values, removing a key-pair value and printing the final dictionary contents.
+
+<img width="369" height="184" alt="image" src="https://github.com/user-attachments/assets/fc999e92-7cb4-42f7-89bd-a59512826f6c" />
