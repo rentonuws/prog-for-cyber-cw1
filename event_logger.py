@@ -35,4 +35,4 @@ while not valid:
 print("\nEvent History:")
 
 for event in event_history:
-    print(f"ID: {event_history['EVENT ID']} | User: {event_history['Username']} | IP address: 192.168.1.25 | Event: {event_history['Event']} | Time: {event_history['Timestamp']}")
+    print(f"ID: {event['EVENT ID']} | User: {event['Username']} | IP address: 192.168.1.25 | Event: {event['Event']} | Time: {event['Timestamp']}")
