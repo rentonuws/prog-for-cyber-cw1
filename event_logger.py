@@ -14,21 +14,25 @@ while not valid:
     username = input("Please enter your username: ")
     password = input("Please enter your password: ")
     event_id = randint(1000,9999)
-    Timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     if authenticate(username,password):
         status = "Login Successful"
         print(status)
         valid = True
-        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {Timestamp}")
+        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {timestamp}")
     else:
         status = "Login Failed"
         print("Invalid username or password")
-        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {Timestamp}")
+        print(f"Event ID: {event_id}\nUsername: {username}\nIP Address: 192.168.1.25\nEvent: {status}\nTimestamp: {timestamp}")
     log_entry = {
         "Event ID": event_id,
         "Username": username,
         "IP Address": "192.168.1.25",
         "Event": status,
-        "Timestamp": Timestamp
+        "Timestamp": timestamp
     }
     event_history.append(log_entry)
+print("\nEvent History:")
+
+for event in event_history:
+    print(event)
