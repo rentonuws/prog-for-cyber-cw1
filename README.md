@@ -19,4 +19,5 @@ Ensure you have Python 3 installed on your machine. Follow these steps to run th
 ## Execution Evidence
 Below is the verification screenshot illustrating the program execution handles both normal and invalid inputs effectively:
 
-<img width="647" height="362" alt="image" src="https://github.com/user-attachments/assets/0c09a377-724f-4b5e-8e4a-50308a95e3cd" />
+<img width="985" height="431" alt="image" src="https://github.com/user-attachments/assets/ae447769-12cb-49db-9f86-7af7962fe565" />
+
