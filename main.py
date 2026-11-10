@@ -3,7 +3,7 @@ import security_tools  #importing the security_tools module
 valid = False
 
 print("Welcome to Security Tools.")
-print("Hints: Password requires 10 digits with at least One Uppercase, one Lowercase, one number and one of the symbols \n"@#!\n"£$%\n"")
+print("Hints: Password requires 10 digits with at least One Uppercase, one Lowercase, one number and one of the symbols \"@#!\"£$%\"")
 
 while not valid: #loop until a valid password is entered
     password = input("Please enter a password: ") #prompt the user to enter a password
