@@ -6,9 +6,9 @@
 * **Campus:** Lanarkshire Campus
 
 ---
-This repository is a collection of Python-based security utilities and tools in Coursework 1. This project demonstrates core principles of programming including access controls, login attempts counter, authentication tracking, network IP validation and password validation.
+This repository contains my solutions for Coursework 1.
 
-Each task has been developed within its own dedicated git branch, complete with individual documentations, implementation files, and screenshots.
+Each task is stored in its own Git branch as required by the coursework. Each branch contains Python source code, a README file, screenshots of program output, and a MIT LICENSE.
 
 
 ## Project Structure & Git Branches
