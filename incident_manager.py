@@ -1,5 +1,5 @@
 incident_manager = {    #Defined a dictionary to store the incident details
-    "username" : "renton_lau",
+    "username" : "UWS",
     "ip_address" : "10.99.11.210",
     "event_type" : "Unauthorized Access attempted",
     "risk_level" : "Medium"
