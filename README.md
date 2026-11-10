@@ -19,3 +19,5 @@ Ensure you have Python 3 installed on your machine. Follow these steps to run th
 
 ## Execution Evidence
 Below is the verification screenshot illustrating the validate_ip() function successfully validating both valid and invalid IPv4 addresses.
+
+<img width="393" height="257" alt="image" src="https://github.com/user-attachments/assets/2a71a2ac-4696-45c5-be20-f1be1e6f6719" />
