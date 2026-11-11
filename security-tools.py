@@ -20,7 +20,7 @@ def security_event_counter():   #define a function called security_event_counter
         print(f"Security Alert: You have entered the incorrect password {incorrect_count} times. This may indicate a potential security threat.")
 
 def brute_force_simulation():   #define a function that will simulate a brute-force attack by prompting the user to enter passwords until they enter the correct password or exceed the maximum number of attempts.
-    print("\n\nWelcome to the Brute-Force Simulation.\nYou will be prompted to enter passwords until you enter the correct password or exceed the maximum number of attempts.") #Describe the purpose of the function to the user
+    print("\n\nWelcome to the Brute-Force Simulation.\nYou will be prompted to enter passwords until you enter the correct password or exceed the maximum ten attempts.") #Describe the purpose of the function to the user
     count = 0   #set the initial count of password attempts to zero
     valid = False   #set the initial value of valid to False, which will be used to control the while loop that prompts the user to enter passwords.
     while not valid:    #loop until the user enters the correct password or exceeds the maximum number of attempts
@@ -38,7 +38,7 @@ def brute_force_simulation():   #define a function that will simulate a brute-fo
 
 def login_authentication(): #define a function that will simulate a login authentication process by prompting the user to enter their username and password until they enter the correct credentials or exceed the maximum number of attempts.
 
-    print("\n\nWelcome to the Login Authentication.\nYou will be prompted to enter your username and password. The program will check if the credentials are correct.") # Describe the function to the user
+    print("\n\nWelcome to the Login Authentication.\nYou will be prompted to enter your username and password. The program will check if the credentials are correct. Your account will be locked if you enter incorrect credential three times.") # Describe the function to the user
     valid = False   #initialize a variable called valid to False, which will be used to control the while loop
     count = 0   #initialize a variable called count to zero.
     while not valid:
