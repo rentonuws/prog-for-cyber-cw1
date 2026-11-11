@@ -22,5 +22,4 @@ Ensure you have Python 3 installed on your machine. Follow these steps to run th
 
 ## Execution Evidence
 Below is the verification screenshot illustrating the program recording both failed and successful login attempts.
-
-<img width="843" height="670" alt="image" src="https://github.com/user-attachments/assets/9891f0b7-358c-4e6a-b620-a7146d9cd3d0" />
+<img width="872" height="868" alt="image" src="https://github.com/user-attachments/assets/83122deb-e9a5-4e9f-9356-ee9bde23edac" />
